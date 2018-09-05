@@ -1,1 +1,13 @@
 
+body,.footer,#aside .widget,body[data-page="item"] #Blog1 .post {
+    background-color: #FAFAFA;
+}
+#nav {
+    background-color: #fff;
+}
+#nav form.search {
+	background-color: #F2F2F2;
+}
+#nav form.search input[type="text"] ,#nav form.search button{
+    background-color: transparent;
+}
