@@ -1,5 +1,5 @@
 
-body,.footer,#aside .widget,body[data-page="item"] #Blog1 .post {
+body,.footer,#aside .widget,body[data-page="item"] #Blog1 .post ,#nav .label ul li ol,#main-container .alba-posts .widget{
     background-color: #FAFAFA;
 }
 #nav {
@@ -8,6 +8,19 @@ body,.footer,#aside .widget,body[data-page="item"] #Blog1 .post {
 #nav form.search {
 	background-color: #F2F2F2;
 }
-#nav form.search input[type="text"] ,#nav form.search button{
-    background-color: transparent;
+#nav form.search input[type="text"], #nav form.search button {
+	background-color: transparent;
+	color: #505050;
+}
+#nav .label ul li a.toggle-list ,#nav .label ul li ol a,h2.lk-td a {color: #666666;}
+#main-container .alba-posts .widget {
+	border: solid 1px #eee;
+	padding: 8px;
+}
+body[data-page="index"] #Blog1 .blog-posts .post-outer .post, .alba-posts .widget li {
+	background: #fafafa;
+}
+body[data-page="index"] #Blog1 .blog-posts .post-outer:nth-child(2n+1) .post, .alba-posts .widget li:nth-child(2n+1) {
+    background: #eee;
+
 }
