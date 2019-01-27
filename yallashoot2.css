@@ -3,7 +3,7 @@
 .fluid_video_wrapper.fluid_player_layout_default .fluid_controls_container .fluid_controls_progress_container .fluid_controls_progress{background-color:red}
 .fluid_video_wrapper.fluid_player_layout_default .fluid_controls_container .fluid_controls_progress_container{display:none}
 #hls-video_fluid_controls_container{color:#fff;position:absolute;bottom:0;left:10px;right:10px;background:linear-gradient(to bottom,rgba(0,0,0,0.12) 0%,rgba(0,0,0,0.6) 100%);filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#00000000',endColorstr='#ad000000',GradientType=0);height:53px;z-index:1}
-#hls-video_fluid_initial_play_button:before{font-size:2.5vw;color:#fff;position:absolute;right:0;bottom:0;left:0;z-index:0;display:flex;flex-direction:column;justify-content:center;align-items:center;pointer-events:none;background:linear-gradient(transparent,#000);content:'شاهد جميع المباريات علي موقع يلا شوت الجديد';height:130px;font-family:Cairo}
+#hls-video_fluid_initial_play_button:before{font-size:2.5vw;color:#fff;position:absolute;right:0;bottom:0;left:0;z-index:0;display:flex;flex-direction:column;justify-content:center;align-items:center;pointer-events:none;background:linear-gradient(transparent,#000);content:'شاهد جميع المباريات علي موقع www.yallashoot.tv';height:130px;font-family:Cairo}
 .fluid_controls_left{width:24px;left:20px}
 .fluid_controls_left,.fluid_controls_right{position:absolute;height:24px;top:23px}
 #hls-video_fluid_control_playpause{position:relative}
